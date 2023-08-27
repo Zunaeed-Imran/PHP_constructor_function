@@ -6,3 +6,37 @@ Basic PHP constructor function
 3."constructor" In the example above, the __construct method is the constructor function of the 
 4. "Public" "public" is an access modifier that determines the visibility of a class property or method. It defines how the property or method can be accessed from outside the class.
 5. "Private" private: When a property or method is declared as private, it can only be accessed from within the class itself. It's not accessible from outside the class, including its subclasses.
+###Example
+```
+class MyClass {
+    public $publicProperty;
+    protected $protectedProperty;
+    private $privateProperty;
+
+    public function __construct() {
+        $this->publicProperty = "This is public.";
+        $this->protectedProperty = "This is protected.";
+        $this->privateProperty = "This is private.";
+    }
+
+    public function getProtectedProperty() {
+        return $this->protectedProperty;
+    }
+
+    private function getPrivateProperty() {
+        return $this->privateProperty;
+    }
+}
+
+$obj = new MyClass();
+
+echo $obj->publicProperty;  // This will work
+// echo $obj->protectedProperty;  // This will result in an error
+// echo $obj->privateProperty;  // This will result in an error
+
+echo $obj->getProtectedProperty();  // This will work
+// echo $obj->getPrivateProperty();  // This will result in an error
+
+
+```
+
