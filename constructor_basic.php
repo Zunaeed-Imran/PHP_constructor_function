@@ -11,6 +11,5 @@ class MyClass {
 }
 
 $obj = new MyClass('Hello', 'World');
-echo $obj;
 
 ?>
