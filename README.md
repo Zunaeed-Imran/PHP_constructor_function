@@ -41,3 +41,5 @@ echo $obj->getProtectedProperty();  // This will work
 ```
 
 #### In this example, you can see that publicProperty is accessible from outside the class, protectedProperty is accessible through a method defined within the class, and privateProperty is not accessible directly or indirectly from outside the class.
+
+1. 
