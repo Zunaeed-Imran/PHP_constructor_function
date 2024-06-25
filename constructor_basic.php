@@ -12,4 +12,9 @@ class MyClass {
 
 $obj = new MyClass('Hello', 'World');
 
+
+
+
+echo $obj->property1; // Outputs: Hello
+
 ?>
