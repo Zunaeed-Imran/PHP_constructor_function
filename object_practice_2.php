@@ -9,7 +9,7 @@ class employee
   {
     $this->name = $name;
     $this->salary = $salary;
-    echo "Employee Created: $name with Salary: $salary" . "<br>";
+    echo "Employee Created: $name with Salary: $salary \n";
   }
 }
 
