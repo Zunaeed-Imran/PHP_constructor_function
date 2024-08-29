@@ -6,7 +6,7 @@ class employee{
 
    function __construct()
    {
-    echo "this is test constructor test function"."<br>";
+    echo "this is test constructor test function \n";
    }
 }
 $imran = new employee();

@@ -19,6 +19,6 @@ $dip = new employee("Dip", 60000);
 $akash = new employee("Akash", 70000);
 
 // Outputting the properties
-echo "Name: " . $imran->name . ", Salary: " . $imran->salary . "<br>";
-echo "Name: " . $dip->name . ", Salary: " . $dip->salary . "<br>";
-echo "Name: " . $akash->name . ", Salary: " . $akash->salary . "<br>";
+echo "Name: " . $imran->name . ", Salary: " . $imran->salary . "\n";
+echo "Name: " . $dip->name . ", Salary: " . $dip->salary . "\n";
+echo "Name: " . $akash->name . ", Salary: " . $akash->salary . "\n";
